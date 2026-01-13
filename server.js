@@ -4,12 +4,12 @@ const server = http.createServer((req, res) => {
 
   if (req.url === "/") {
     res.writeHead(200, { "content-type": "text/html" });
-    res.end("<h1> Welcome to Home Page </h1>");
+    res.end("Welcome to Home Page");
   }
 
   else if (req.url === "/about") {
     res.writeHead(200, { "content-type": "text/html" });
-    res.end("<h1> About Page </h1>")
+    res.end("About Page")
   }
   else if (req.url === "/user") {
     const user = {
@@ -25,7 +25,7 @@ const server = http.createServer((req, res) => {
   }
   else{
     res.writeHead(200, { "content-type": "text/html" });
-    res.end("<h1> Page not found </h1>")
+    res.end("Page not found")
   }
 
 });
