@@ -35,13 +35,13 @@ The utf8 parameter tells Node.js to decode the file content into a readable stri
 
 4. Common error codes in file system operations
 
-Error Code	                Meaning
+Error Code	                    Meaning
   ENOENT	            File or directory does not exist
   EACCES	            Permission denied
   EISDIR	            Path is a directory, not a file
   ENOTDIR	            A part of the path is not a directory
   EEXIST	            File or directory already exists
-  EBUSY	            Resource is busy or locked
+  EBUSY	                Resource is busy or locked
   EMFILE	            Too many open files
 
 ---------------------------------------------------------------------------------------------------------------------------------
