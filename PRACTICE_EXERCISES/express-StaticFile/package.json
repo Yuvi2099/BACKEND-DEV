@@ -1,16 +1,22 @@
 {
-  "name": "express-staticfile",
+  "name": "backend-dev",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "description": "this is a readme file",
+  "homepage": "https://github.com/Yuvi2099/BACKEND-DEV#readme",
+  "bugs": {
+    "url": "https://github.com/Yuvi2099/BACKEND-DEV/issues"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuvi2099/BACKEND-DEV.git"
+  },
   "license": "ISC",
+  "author": "",
   "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^5.2.1"
   }
